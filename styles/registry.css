@@ -1,0 +1,98 @@
+.registry-text {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+#registry-title {
+  padding-bottom: 1em;
+  margin: auto;
+  text-align: center;
+}
+
+.registry-form label {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+
+.registry-input-label {
+  margin: auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.registry-input-label span {
+  text-align: left;
+}
+
+.registry-input-label input {
+  width: 100%;
+  border-radius: 3px;
+  border-color: black;
+  border-radius: 8px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1em;
+  padding: 0.5rem;
+  color: #000;
+  margin-top: 0.5rem;
+}
+
+.registry-input-label .input-error {
+  border-color: red;
+}
+
+.registry-input-label .registry-input-label__error {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: red;
+  text-align: center;
+  height: 1rem;
+}
+
+#registry-submit {
+  width: 30%;
+  background-color: #191257;
+  background-image: url("/images/stereo.png");
+  background-repeat: repeat;
+  opacity: 0.9;
+  box-shadow: 
+            0 1px 4px rgb(110, 110, 110),
+            inset  -1px 0 2px rgb(110, 110, 110);
+  font-family: 'Balsamiq Sans', sans-serif;
+  transition: 0.2s;
+  text-shadow: 1px 1px 2px rgb(238, 238, 238);
+  color: white;
+  height: 60px;
+  line-height: 45px;
+  border: 0.05rem solid;
+}
+
+#registry-submit.disabled {
+  background-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
+  background-image: none;
+}
+
+#registry-submit:hover:not(.disabled) {
+  cursor: pointer;
+  background-color: #271c8a;
+  text-shadow: 2px 2px 5px rgb(126, 126, 126);
+  font-size: 1.05em;
+}
+
+.age-input-label input {
+  width: 3em;
+}
+
+#create-text__input-field {
+  width: 100%;
+  height: 500px;
+  text-align: left;
+  clear: both;
+}

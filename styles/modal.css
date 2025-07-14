@@ -1,0 +1,105 @@
+.modal {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  z-index: 999999;
+}
+
+.modal h1{
+  margin: 0;
+  margin-bottom: 0.75rem;
+}
+
+.modal-message {
+  color:rgb(230, 55, 55);
+  font-size: 0.75rem;
+  height: 1rem;
+  display: block;
+}
+
+.modal form {
+  margin-top: 0.5rem;
+}
+
+.modal-body {
+  padding: 2rem;
+  width: 400px;
+  border-radius: 5px;
+  background: white;
+  height: 200px;
+  position: absolute;
+  top: 300px;
+  transform: translate(0, -50%);
+  font-family: 'Comfortaa', cursive;
+}
+
+.modal-close-button {
+  background: rgba(255, 0, 0, 0.5);
+  border-radius: 0.6rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.modal-close-button:hover {
+  background: rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.modal-close-button span {
+  font-size: 1rem;
+  line-height: 1.2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0.15rem;
+  color: white;
+}
+
+.modal-body a {
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  display: block;
+  cursor: pointer;
+  color: #191257
+}
+
+.modal-body a:hover {
+  text-decoration: underline;
+}
+
+.modal-body input {
+  height: 30px;
+  width: 250px;
+  margin-bottom: 10px;
+  border-radius: 0.25rem;
+}
+
+.modal-body .modal-submit-button {
+  margin-top: 15px;
+  border-radius: 1rem;
+  width: 100px;
+}
+
+.modal-body .modal-submit-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.modal-flower {
+  width: 50px;
+  position: absolute;
+  top: -5%;
+  left: -5%;
+  transition: 1s;
+}
+
+.modal-flower:hover {
+  transform: rotate(180deg);
+}

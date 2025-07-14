@@ -1,0 +1,39 @@
+main {
+  background-color: #c4f582;
+}
+
+.main-content-wrapper {
+  padding: 40px 10% 20px;
+}
+
+.main-content {
+  background-color: azure;
+  border: 4px solid #137729;
+  border-radius: 15px;
+  height: 1500px;
+  padding: 60px 5% 80px;
+  background-image: url('/images/cage.jpg');
+  background-repeat: repeat;
+  background-size: 20%;
+}
+
+.main-content > h2 {
+  font-family: 'Pangolin', cursive;
+  font-size: 3em;
+  margin: 0;
+  margin-left: 1em;
+  color: #1d1b4a;
+  padding-bottom: 2em;
+}
+
+.main-content > p {
+  font-size: 1.5em;
+  font-family: 'Balsamiq Sans', cursive;
+  text-shadow: #9b98db 0 0 2px;
+  color: #33269f;
+}
+
+.main-content p img {
+  float: left;
+  width: 20%;
+}

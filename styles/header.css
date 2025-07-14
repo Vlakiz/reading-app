@@ -1,0 +1,125 @@
+header {
+  background: linear-gradient(to bottom right, #6b9fea, #9dd0ff);
+  box-shadow: inset 0 -6px 4px -4px rgba(0, 0, 0, .2);
+  height: 240px;
+}
+
+.header {
+  height: 150px;
+  color: #fff;
+  position: relative;
+}
+
+.header .cloud {
+  position: absolute;
+  height: 140px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+
+.header .site-title {
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  margin-left: 30px;
+  transform: translate(0, -30%);
+  text-shadow: black 0 0 5px;
+  color: rgb(255, 253, 124);
+  cursor: pointer;
+}
+
+header ul {
+  margin: 0 10%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+header nav {
+  position: relative;
+}
+
+header nav .nav-element {
+  position: relative;
+  height: 90px;
+  transition: 0.5s;
+}
+
+header nav .nav-element:hover {
+  transform: scale(1.2);
+}
+
+header nav .nav-element img {
+  height: 100%;
+}
+
+.nav-element__link {
+  position: absolute;
+  font-family: 'Comfortaa', cursive;
+  font-size: 150%;
+  z-index: 99999;
+  top: 70%;
+  transform: translate(0, -50%);
+  width: 100%;
+  left: 0;
+  text-align: center;
+}
+
+.nav-element__link:hover {
+  text-shadow: rgb(221, 193, 152) 0 0 10px;
+}
+
+.nav-frog {
+  position: absolute;
+  bottom: -5px;
+  height: 50px;
+  left: 10px;
+  transition: 0.2s;
+}
+
+.nav-frog:hover {
+  transform: translate(0px, -15px);
+} 
+
+.sign-in-button-wrapper {
+  position: fixed;
+  background-image: url("/images/cloud-2.png");
+  opacity: 0.9;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  right: 3rem;
+  top: 2rem;
+  z-index: 99999;
+  width: 100px;
+  height: 60px;
+  transition: 0.2s;
+  transform: rotate(10deg);
+}
+
+.sign-in-button-wrapper:hover {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+
+.sign-in-button {
+  background:rgba(0, 0, 0, .0);
+  border: 0px;
+  font-size: 1.5rem;
+  color: black;
+  text-shadow: white 1px 1px 0, white -1px -1px 0, 
+               white -1px 1px 0, white 1px -1px 0;
+  font-family: 'Balsamiq Sans', cursive;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.sign-in-button:hover {
+  cursor: pointer;
+}

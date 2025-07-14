@@ -1,0 +1,72 @@
+#alphabet-title {
+  text-align: center;
+  font-size: 6rem;
+  padding-bottom: 1em;
+}
+
+.letters-wrapper {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+#aquarium {
+  display: block;
+  width: 100%;
+}
+
+.fish-wrapper {
+  position: absolute;
+  top: 45%;
+  width: 15%;
+  right: 5%;
+}
+
+#fish {
+  width: 100%;
+  animation: swim 8s linear infinite;
+}
+
+@keyframes swim {
+  5% {
+    transform: rotateY(180deg);
+  }
+
+  50% {
+    transform: translate(-500%, 0) rotateY(180deg);
+  }
+  55% {
+    transform: translate(-500%, 0);
+  }
+}
+
+.letters {
+  position: absolute;
+  top: 55%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-53%, -50%);
+  left: 50%;
+  margin-right: -50%;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.letters ul li {
+  display: inline-block;
+  font-size: 6em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #cdedf7;
+  text-shadow: white 0 0 10px;
+  -webkit-text-stroke: 5px black;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.letters ul li:hover {
+  transform: scale(1.5);
+  text-shadow: black 0 0 10px;
+}

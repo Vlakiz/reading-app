@@ -1,0 +1,38 @@
+footer {
+  height: 100px;
+  position: relative;
+}
+
+.pre-footer {
+  height: 10%;
+  background: linear-gradient(to bottom, #c4f582, 80%, #c49c7c);
+}
+
+.footer {
+  background: linear-gradient(to bottom, #c49c7c, 80%, #4b2a14);
+  color: rgb(248, 230, 197);
+  font-family: 'Noto Sans', sans-serif;
+  height: 90%;
+  padding: 35px 10% 20px;
+  font-size: 1.1em;
+}
+
+.footer .footer-copyright {
+  position: absolute;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: right;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  padding-left: 3em;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
